@@ -13,9 +13,17 @@
 		CB22044B27BC142000422A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB22044927BC142000422A31 /* Main.storyboard */; };
 		CB22044D27BC142500422A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB22044C27BC142500422A31 /* Assets.xcassets */; };
 		CB22045027BC142500422A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB22044E27BC142500422A31 /* LaunchScreen.storyboard */; };
+		CB22045827BC1C7200422A31 /* LottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22045727BC1C7200422A31 /* LottieAnimation.swift */; };
+		CB22045A27BC1C8000422A31 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22045927BC1C8000422A31 /* LottieView.swift */; };
+		CB22045C27BC1E2700422A31 /* boom2.json in Resources */ = {isa = PBXBuildFile; fileRef = CB22045B27BC1E2700422A31 /* boom2.json */; };
+		CB22045E27BC1E2D00422A31 /* boom.json in Resources */ = {isa = PBXBuildFile; fileRef = CB22045D27BC1E2C00422A31 /* boom.json */; };
+		CB22046027BC1E7000422A31 /* 4k-gambling-table-casino-dice-chips-besthqwallpapers.com-2560x1440 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB22045F27BC1E6F00422A31 /* 4k-gambling-table-casino-dice-chips-besthqwallpapers.com-2560x1440 2.jpg */; };
+		DB13A132227EC54B4DA5E8E6 /* Pods_Dice_Roll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9EDCC897AADF8A0877DC14 /* Pods_Dice_Roll.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A9EDCC897AADF8A0877DC14 /* Pods_Dice_Roll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dice_Roll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB8C37943FF7430BEDC7F03 /* Pods-Dice Roll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dice Roll.release.xcconfig"; path = "Target Support Files/Pods-Dice Roll/Pods-Dice Roll.release.xcconfig"; sourceTree = "<group>"; };
 		CB22044027BC142000422A31 /* Dice Roll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Roll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB22044327BC142000422A31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB22044527BC142000422A31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,12 @@
 		CB22044C27BC142500422A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB22044F27BC142500422A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB22045127BC142500422A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB22045727BC1C7200422A31 /* LottieAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimation.swift; sourceTree = "<group>"; };
+		CB22045927BC1C8000422A31 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		CB22045B27BC1E2700422A31 /* boom2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = boom2.json; sourceTree = "<group>"; };
+		CB22045D27BC1E2C00422A31 /* boom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = boom.json; sourceTree = "<group>"; };
+		CB22045F27BC1E6F00422A31 /* 4k-gambling-table-casino-dice-chips-besthqwallpapers.com-2560x1440 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4k-gambling-table-casino-dice-chips-besthqwallpapers.com-2560x1440 2.jpg"; sourceTree = SOURCE_ROOT; };
+		D572272F8A488B35AFF09E01 /* Pods-Dice Roll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dice Roll.debug.xcconfig"; path = "Target Support Files/Pods-Dice Roll/Pods-Dice Roll.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB13A132227EC54B4DA5E8E6 /* Pods_Dice_Roll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B2D653D35C247ADA06EAD7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D572272F8A488B35AFF09E01 /* Pods-Dice Roll.debug.xcconfig */,
+				CAB8C37943FF7430BEDC7F03 /* Pods-Dice Roll.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CB22043727BC142000422A31 = {
 			isa = PBXGroup;
 			children = (
 				CB22044227BC142000422A31 /* Dice Roll */,
 				CB22044127BC142000422A31 /* Products */,
+				8B2D653D35C247ADA06EAD7A /* Pods */,
+				F0844C5463C607BEA13EC7CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,9 @@
 		CB22044227BC142000422A31 /* Dice Roll */ = {
 			isa = PBXGroup;
 			children = (
+				CB22045F27BC1E6F00422A31 /* 4k-gambling-table-casino-dice-chips-besthqwallpapers.com-2560x1440 2.jpg */,
+				CB22045D27BC1E2C00422A31 /* boom.json */,
+				CB22045B27BC1E2700422A31 /* boom2.json */,
 				CB22044327BC142000422A31 /* AppDelegate.swift */,
 				CB22044527BC142000422A31 /* SceneDelegate.swift */,
 				CB22044727BC142000422A31 /* ViewController.swift */,
@@ -63,8 +92,18 @@
 				CB22044C27BC142500422A31 /* Assets.xcassets */,
 				CB22044E27BC142500422A31 /* LaunchScreen.storyboard */,
 				CB22045127BC142500422A31 /* Info.plist */,
+				CB22045727BC1C7200422A31 /* LottieAnimation.swift */,
+				CB22045927BC1C8000422A31 /* LottieView.swift */,
 			);
 			path = "Dice Roll";
+			sourceTree = "<group>";
+		};
+		F0844C5463C607BEA13EC7CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EDCC897AADF8A0877DC14 /* Pods_Dice_Roll.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB22045427BC142500422A31 /* Build configuration list for PBXNativeTarget "Dice Roll" */;
 			buildPhases = (
+				866E630E39E484CFA4CC3C5F /* [CP] Check Pods Manifest.lock */,
 				CB22043C27BC142000422A31 /* Sources */,
 				CB22043D27BC142000422A31 /* Frameworks */,
 				CB22043E27BC142000422A31 /* Resources */,
+				803FEB022EB58589BD9CFEA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +167,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB22045027BC142500422A31 /* LaunchScreen.storyboard in Resources */,
+				CB22045C27BC1E2700422A31 /* boom2.json in Resources */,
 				CB22044D27BC142500422A31 /* Assets.xcassets in Resources */,
 				CB22044B27BC142000422A31 /* Main.storyboard in Resources */,
+				CB22046027BC1E7000422A31 /* 4k-gambling-table-casino-dice-chips-besthqwallpapers.com-2560x1440 2.jpg in Resources */,
+				CB22045E27BC1E2D00422A31 /* boom.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		803FEB022EB58589BD9CFEA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dice Roll/Pods-Dice Roll-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dice Roll/Pods-Dice Roll-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dice Roll/Pods-Dice Roll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866E630E39E484CFA4CC3C5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dice Roll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB22043C27BC142000422A31 /* Sources */ = {
@@ -139,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB22044827BC142000422A31 /* ViewController.swift in Sources */,
+				CB22045827BC1C7200422A31 /* LottieAnimation.swift in Sources */,
+				CB22045A27BC1C8000422A31 /* LottieView.swift in Sources */,
 				CB22044427BC142000422A31 /* AppDelegate.swift in Sources */,
 				CB22044627BC142000422A31 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +372,7 @@
 		};
 		CB22045527BC142500422A31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D572272F8A488B35AFF09E01 /* Pods-Dice Roll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +401,7 @@
 		};
 		CB22045627BC142500422A31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB8C37943FF7430BEDC7F03 /* Pods-Dice Roll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
